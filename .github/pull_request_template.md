@@ -24,11 +24,13 @@ Steps to verify the changes:
 3. Open `README.md` and verify a **How to run** section is present.
 4. Confirm instructions are clear and executable.
 
-## Checklist
-Before opening this PR, I confirm that:
+## Pre-PR Self Review Checklist
 
-- [x] The code works as expected
-- [x] I tested the changes locally
-- [x] No debug prints or temporary code remain
-- [x] Documentation is updated if needed
-- [x] The PR focuses on a single logical change
+Before opening a pull request, I verify the following:
+
+- [ ] The code does what the PR title describes
+- [ ] All tests pass successfully
+- [ ] Documentation and README are updated
+- [ ] The PR focuses on one logical change
+- [ ] No debug prints or temporary code remain
+- [ ] Code formatting and naming are consistent
