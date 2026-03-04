@@ -72,6 +72,13 @@ Output of `docker run hello-world`:
 
 [paste your hello-world output here]
 
+## Stop and Restart
+
+Commands:
+```bash
+docker stop pg-prework
+docker restart pg-prework
+docker logs pg-prework
 
 ## Postgres Container
 
@@ -83,3 +90,5 @@ docker run -d \
   -e POSTGRES_PASSWORD=prework \
   -p 5432:5432 \
   postgres:15-alpine
+
+  
